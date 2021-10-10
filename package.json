@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc -p tsconfig.json",
-    "prepublish": "npm run build --access public"
+    "prepublish": "npm run build && publish --force-publish --access public --exact"
   },
   "repository": {
     "type": "git",
@@ -65,5 +65,8 @@
     "dist",
     "package.json",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
