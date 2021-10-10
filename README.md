@@ -11,7 +11,7 @@ and the Inversion of Control (IoC).
 ## Plugin implementation
 
 ```
-$ npm install clean-ts
+$ npm install @clean/ts
 ```
 
 ## License
